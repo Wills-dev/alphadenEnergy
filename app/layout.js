@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import NavBar from "@components/NavBar";
-import "@styles/globals.css";
 import Footer from "@components/Footer";
+import "@styles/global.css";
 
 export const metadata = {
   title: "Alphaden Energy",

@@ -1,0 +1,173 @@
+.header {
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 15px 25px rgba(0, 4, 74, 0.04);
+}
+
+.fixedPosition {
+  position: fixed;
+  z-index: 900;
+}
+
+.header .upper-nav-bar {
+  background-color: #222222;
+  display: none;
+}
+
+.upper-nav-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.deactivate-upper-nav {
+  display: none;
+}
+
+.header .upper-nav-bar ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 10px 0px;
+}
+
+.upper-nav-bar ul li {
+  color: #fff;
+  font-size: 12px;
+  text-align: right;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.upper-nav-bar ul li a img {
+  transition: all 0.3s ease-out;
+}
+
+.upper-nav-bar ul li a img:hover {
+  transform: scale(1.4);
+}
+
+.down-nav-bar {
+  position: relative;
+}
+
+.down-nav-ctn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0px;
+}
+
+.down-nav-ctn .logo-ctn {
+  width: 100px;
+}
+
+.down-nav-ctn .logo-ctn a {
+  width: 100%;
+}
+
+.down-nav-ctn .logo-ctn a img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.down-nav-ctn .down-nav-page {
+  display: none;
+}
+
+.down-nav-ctn .down-nav-page .nav-link {
+  margin-left: 20px;
+  text-transform: uppercase;
+  color: #777777;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.625em;
+}
+
+.down-nav-ctn .down-nav-page .active {
+  color: #83c21d;
+}
+
+.down-nav-ctn .down-nav-page .nav-link:hover {
+  color: #83c21d;
+  transition: all 0.3s ease-out;
+}
+
+.nav-bar-menu-icon {
+  display: block;
+}
+
+.nav-bar-menu-icon svg {
+  color: #222;
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.side-bar-ctn {
+  position: fixed;
+  top: 0;
+  padding-top: 18px;
+  bottom: 0;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.85);
+  left: -260px;
+  width: 260px;
+  overflow-y: auto;
+  transition: all 0.4s ease-out;
+  display: block;
+}
+
+.activate-sidebar {
+  left: 0;
+}
+
+.side-bar-ctn .nav-link {
+  color: #fff;
+  font-size: 13px;
+  text-transform: uppercase;
+  overflow: hidden;
+  padding: 10px 22px 10px 15px;
+  position: relative;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  outline: none;
+  font-weight: 700;
+}
+
+.side-bar-ctn .active {
+  color: #83c21d;
+}
+
+.side-bar-menu {
+  width: 100%;
+  padding: 0 5px;
+}
+
+.side-bar-menu svg {
+  width: 40px;
+  height: 35px;
+  cursor: pointer;
+  float: right;
+  color: #9c9a9a;
+}
+
+@media only screen and (min-width: 46.875em) {
+  .header .upper-nav-bar {
+    display: block;
+  }
+  .down-nav-ctn .down-nav-page {
+    display: flex;
+  }
+
+  .nav-bar-menu-icon {
+    display: none;
+  }
+
+  .side-bar-ctn {
+    display: none;
+  }
+}
