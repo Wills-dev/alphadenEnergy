@@ -9,6 +9,9 @@ import { useActivePath } from "@hooks/useActivePath";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(true);
+  const isFixed = useFixedNavbar(
+    typeof window !== "undefined" ? window.innerHeight * 0.06 : 0
+  );
 
   const navLinks = [
     {
@@ -33,9 +36,6 @@ const NavBar = () => {
     },
   ];
 
-  const isFixed = useFixedNavbar(
-    typeof window !== "undefined" ? window.innerHeight * 0.06 : 0
-  );
   return (
     <div className={isFixed ? "header fixedPosition" : "header"}>
       <div className={isFixed ? "deactivate-upper-nav" : "upper-nav-bar "}>
