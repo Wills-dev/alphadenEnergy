@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import "./NavBar.css";
 import { useState } from "react";
-import useFixedNavbar from "@hooks/useFixedNavbar";
 import { useActivePath } from "@hooks/useActivePath";
+import useFixedNavbar from "@hooks/useFixedNavBar";
 
 const NavBar = () => {
   const [openNav, setOpenNav] = useState(true);
