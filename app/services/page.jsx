@@ -1,42 +1,36 @@
-"use client";
-
+import "./Services.css";
+import "../Home.css";
 import Link from "next/link";
-import "./Home.css";
-import CountUp from "react-countup";
 import ContactUs from "@components/ContactUs";
 
-export default function Home() {
+const page = () => {
   return (
     <div>
-      <header className="main-header">
-        <div className="overlay"></div>
-        <div className="bg-container">
-          <h6>DON’T LOOK FURTHER, HERE IS THE KEY</h6>
-          <h1>We’re Industrial solution</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim. sed do eiusmod tempor incididunt.
-          </p>
-          <Link href="/about-us">
-            Learn more{" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
-              />
-            </svg>
-          </Link>
+      <section className="main-title-ctn">
+        <div className="container">
+          <div className="main-title">
+            <h1>Services</h1>
+            <h5>
+              <Link href="/">Home</Link>{" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="w-6 h-6"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"
+                />
+              </svg>{" "}
+              Services
+            </h5>
+          </div>
         </div>
-      </header>
+      </section>
       <section className="container">
         <div className="values-ctn">
           <div className="row">
@@ -131,7 +125,7 @@ export default function Home() {
         <div className="container">
           <div className="service-wrapper">
             <div className="title-ctn">
-              <h1>Our Capturing Market Sectors</h1>
+              <h1>Our Offered Services to you</h1>
               <p>
                 We provide the best of services while considering the eco-system
               </p>
@@ -231,119 +225,9 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="container">
-        <div className="count-ctn">
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={1020}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Project completed</h6>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={70}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Total Employees</h6>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={120}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Happy Clients</h6>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={260}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Tickets Submited</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="project-ctn">
-        <div className="container">
-          <div className="title-ctn">
-            <h1>Latest Finished Projects</h1>
-            <p>
-              We provide the best of services while considering the eco-system
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-md-8  col-12">
-              <div className="project project-one"></div>
-            </div>
-            <div className="col-md-4 col-sm-6 col-12">
-              <div className="project project-two"></div>
-            </div>
-            <div className="col-md-4 col-sm-6 col-12">
-              <div className="project project-three"></div>
-            </div>
-            <div className="col-md-8  col-12">
-              <div className="project project-four"></div>
-            </div>
-            <div className="col-md-8  col-12">
-              <div className="project project-five"></div>
-            </div>
-            <div className="col-md-4 col-sm-6 col-12">
-              <div className="project project-six"></div>
-            </div>
-          </div>
-        </div>
-      </section>
       <ContactUs />
     </div>
   );
-}
+};
+
+export default page;

@@ -1,4 +1,4 @@
-.footer .contact-ctn {
+.contact-ctn {
   padding: 80px 0;
 }
 
@@ -80,7 +80,7 @@
 
 .footer-wrap {
   background-color: #04091e;
-  padding: 80px 0 20px;
+  padding: 80px 0 30px;
 }
 
 .footerWrap {
@@ -88,7 +88,7 @@
 }
 
 .footerCtn {
-  margin: 0 0 50px;
+  margin: 0 0 10px;
 }
 
 .footerCtn h4 {
@@ -135,4 +135,19 @@
 
 .footerSocial a:hover img {
   transform: rotate(360deg);
+}
+
+.privacy-ctn {
+  display: block;
+}
+
+.privacy-ctn a {
+  text-decoration: none;
+  color: #83c21d;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.privacy-ctn a:hover {
+  text-decoration: underline;
 }

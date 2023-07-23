@@ -250,10 +250,53 @@
   display: block;
   transition: all 0.3s ease 0s;
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+}
+
+.project .overlay-project {
+  background: #000;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+.project h1 {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.project p {
+  color: #fff;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.3s ease 0s;
+}
+
+.project-ctn .project:hover .overlay-project {
+  opacity: 0.5;
+}
+
+.project-ctn .project:hover p,
+.project-ctn .project:hover h1 {
+  opacity: 1;
 }
 
 .project-ctn .project:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .project-ctn .project-one {

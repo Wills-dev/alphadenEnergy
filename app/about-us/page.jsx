@@ -1,6 +1,11 @@
+"use client";
+
 import "./about-us.css";
+import "../Home.css";
 import Link from "next/link";
 import Image from "next/image";
+import CountUp from "react-countup";
+import ContactUs from "@components/ContactUs";
 
 const page = () => {
   return (
@@ -210,6 +215,89 @@ const page = () => {
           </div>
         </div>
       </section>
+      <section className="container">
+        <div className="count-ctn">
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-content">
+                <div className="count">
+                  <div>
+                    <h2>
+                      {" "}
+                      <CountUp
+                        end={320}
+                        start={0}
+                        duration={4}
+                        enableScrollSpy={true}
+                      />
+                      k
+                    </h2>
+                  </div>
+                </div>
+                <h6>Project completed</h6>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-content">
+                <div className="count">
+                  <div>
+                    <h2>
+                      {" "}
+                      <CountUp
+                        end={70}
+                        start={0}
+                        duration={4}
+                        enableScrollSpy={true}
+                      />
+                      k
+                    </h2>
+                  </div>
+                </div>
+                <h6>Total Employees</h6>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-content">
+                <div className="count">
+                  <div>
+                    <h2>
+                      {" "}
+                      <CountUp
+                        end={120}
+                        start={0}
+                        duration={4}
+                        enableScrollSpy={true}
+                      />
+                      k
+                    </h2>
+                  </div>
+                </div>
+                <h6>Happy Clients</h6>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="count-content">
+                <div className="count">
+                  <div>
+                    <h2>
+                      {" "}
+                      <CountUp
+                        end={260}
+                        start={0}
+                        duration={4}
+                        enableScrollSpy={true}
+                      />
+                      k
+                    </h2>
+                  </div>
+                </div>
+                <h6>Tickets Submited</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ContactUs />
     </div>
   );
 };

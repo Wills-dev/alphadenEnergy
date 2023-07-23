@@ -25,11 +25,7 @@ const NavBar = () => {
     },
     {
       name: "Project",
-      link: "/project",
-    },
-    {
-      name: "Element",
-      link: "/element",
+      link: "/projects",
     },
     {
       name: "Contact",
