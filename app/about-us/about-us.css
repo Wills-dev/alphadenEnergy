@@ -1,0 +1,145 @@
+.main-title-ctn {
+  padding: 80px 0;
+  background: #f9f9ff;
+}
+
+.main-title-ctn .main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.main-title h1 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.main-title h5,
+.main-title h5 a {
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #777777;
+  transition: all 0.3s ease-out;
+}
+
+.main-title h5 svg {
+  width: 16px;
+}
+
+.main-title h5 a:hover {
+  color: #83c21d;
+}
+
+.about-us-main-ctn {
+  padding: 80px 0;
+}
+
+.about-main-content {
+  width: 100%;
+}
+
+.about-us-main-ctn h1 {
+  margin-bottom: 30px;
+  font-weight: 600;
+  color: #222222;
+}
+
+.about-main-content p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.about-us-main-ctn .about-main-img {
+  background-image: url("/assets/images/aboutImg.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 310px;
+}
+
+.team-ctn {
+  background-color: #f9f9ff;
+  padding: 80px 0;
+}
+
+.team-wrapper .team-img-ctn {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.team-1 {
+  background-image: url("/assets/images/team1.jpg");
+}
+.team-2 {
+  background-image: url("/assets/images/team2.jpg");
+}
+.team-3 {
+  background-image: url("/assets/images/team3.jpg");
+}
+
+.team-4 {
+  background-image: url("/assets/images/team4.jpg");
+}
+
+.team-img-ctn .team-link {
+  margin: 0 10px;
+  z-index: 2;
+  transition: all 0.3s ease-out;
+  opacity: 0;
+}
+
+.team-img-ctn .team-link:hover {
+  transform: scale(1.4);
+}
+
+.overlay-team {
+  background: #83c21d;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease 0s;
+}
+
+.team-wrapper:hover .overlay-team {
+  opacity: 0.7;
+}
+.team-wrapper:hover .team-img-ctn .team-link {
+  opacity: 1;
+}
+
+.team-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.team-content h5 {
+  color: #222222;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.team-content p {
+  display: block;
+}

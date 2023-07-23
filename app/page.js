@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import "./Home.css";
 import CountUp from "react-countup";

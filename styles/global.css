@@ -28,3 +28,26 @@ body {
   max-width: 1200px;
   padding: 0 20px;
 }
+
+.title-ctn {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.title-ctn h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #222222;
+  line-height: 1.2em !important;
+  font-weight: 600;
+}
+
+.title-ctn p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
