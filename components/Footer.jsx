@@ -99,11 +99,6 @@ const Footer = () => {
                   <p>
                     +234(0)700 257 4233 <br /> +234(0)700 ALPHADEN
                   </p>
-                  <p>
-                    {" "}
-                    Copyright © 2023 Alphaden Energy and Oilfield Limited. All
-                    rights reserved.
-                  </p>
                 </div>
               </div>
               <div className="col-md-4 col-sm-6 col-12">
@@ -155,6 +150,11 @@ const Footer = () => {
                       />
                     </Link>
                   </div>
+                  <p className="mt-4">
+                    {" "}
+                    Copyright © 2023 Alphaden Energy and Oilfield Limited. All
+                    rights reserved.
+                  </p>
                 </div>
               </div>
             </div>
