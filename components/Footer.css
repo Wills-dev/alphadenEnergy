@@ -1,0 +1,138 @@
+.footer .contact-ctn {
+  padding: 80px 0;
+}
+
+.addressCtn {
+  margin-bottom: 30px;
+}
+
+.addressCtn div {
+  margin: 15px 0;
+}
+
+.addressCtn h5 {
+  line-height: 1.8;
+  color: #073b4c;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.addressCtn p {
+  line-height: 1.25;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+}
+
+.contactFormCtn {
+  background-color: #f9f9ff;
+  border-radius: 6px;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contactFormCtn input,
+.contactFormCtn textarea {
+  transition-duration: 300ms;
+  background-color: transparent;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-radius: 0;
+  border-bottom: 1px solid #4d507d;
+  font-size: 15px;
+  text-transform: capitalize;
+  color: #9293bc;
+  padding-left: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+.contactFormCtn input:focus,
+.contactFormCtn textarea:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #83c21d;
+  outline: none;
+}
+
+.contactFormCtn button {
+  padding: 10px 0px;
+  transition: all 0.3s ease-out 0s;
+  border-radius: 20px;
+  background: #83c21d;
+  width: 180px;
+  outline: none;
+  border: none;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contactFormCtn button:hover {
+  background-color: #9293bc;
+}
+
+.contactFormCtn button svg {
+  width: 20px;
+}
+
+.footer-wrap {
+  background-color: #04091e;
+  padding: 80px 0 20px;
+}
+
+.footerWrap {
+  width: 100%;
+}
+
+.footerCtn {
+  margin: 0 0 50px;
+}
+
+.footerCtn h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footerCtn p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.footerSocial {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.footerSocial a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+
+.footerSocial img {
+  transition: all 0.3s ease-out;
+}
+
+.footerSocial a:hover {
+  background-color: rgba(240, 240, 240, 0.5);
+}
+
+.footerSocial a:hover img {
+  transform: rotate(360deg);
+}
