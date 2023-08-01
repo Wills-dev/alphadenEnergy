@@ -11,24 +11,42 @@ const Footer = () => {
             <div className="row">
               <div className=" col-md-4 col-sm-6 col-12">
                 <div className="footerCtn">
-                  <h4>About us</h4>
+                  <h4>Corporate Office</h4>
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore dolore magna
-                    aliqua.
+                    Plot 23 Furo Ezimora Street, Off Adewunmi Adebimpe Drive,
+                    Off Marwa Roundabout, Lekki Phase 1, Lagos State, Nigeria.
                   </p>
                   <p>
                     +234(0)700 257 4233 <br /> +234(0)700 ALPHADEN
                   </p>
                 </div>
               </div>
+              <div className=" col-md-4 col-sm-6 col-12">
+                <div className="footerCtn">
+                  <h4> Operations</h4>
+                  <p>
+                    No 36 Trans Amadi Layout, Port Harcourt, Rivers State,
+                    Nigeria.
+                  </p>
+
+                  <p>info@alphadenenergy.com</p>
+                </div>
+              </div>
               <div className="col-md-4 col-sm-6 col-12">
                 <div className="footerCtn">
-                  <h4> Office</h4>
+                  <h4> South Korea Office</h4>
                   <p>
                     #302, 42, Geojejungang-ro,15-Gil, Geoje-si,
                     Kyeongsangnam-do, Republic of Korea
                   </p>
+
+                  <p>info@alphadenenergy.com</p>
+                </div>
+              </div>
+              <div className=" col-md-4 col-sm-6 col-12">
+                <div className="footerCtn">
+                  <h4>USA Office</h4>
+                  <p>5048 Nicollet Avenue, Minneapolis Mn. 55419, USA</p>
 
                   <p>info@alphadenenergy.com</p>
                 </div>
