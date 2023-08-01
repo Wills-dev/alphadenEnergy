@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import "./Home.css";
-import CountUp from "react-countup";
 import ContactUs from "@components/ContactUs";
 import Image from "next/image";
 
@@ -44,7 +43,7 @@ export default function Home() {
       <section className="container">
         <div className="values-ctn">
           <div className="row">
-            <div className="col-md-4 col-sm-6 col-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="value-wrapper">
                 <div className="value-icon">
                   <svg
@@ -72,7 +71,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-sm-6 col-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="value-wrapper">
                 <div className="value-icon">
                   <svg
@@ -99,7 +98,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-sm-6 col-12">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
               <div className="value-wrapper">
                 <div className="value-icon">
                   <svg
@@ -126,6 +125,30 @@ export default function Home() {
                 </div>
               </div>
             </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
+              <div className="value-wrapper">
+                <div className="value-icon">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="w-6 h-6"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 00-3.7-3.7 48.678 48.678 0 00-7.324 0 4.006 4.006 0 00-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3l-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 003.7 3.7 48.656 48.656 0 007.324 0 4.006 4.006 0 003.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3l-3 3"
+                    />
+                  </svg>
+                </div>
+                <div className="value-content">
+                  <h3>Core Values</h3>
+                  <p>P-eople First, I-ntegrity, I-nnovation and E-fficiency</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -133,7 +156,7 @@ export default function Home() {
         <div className="container">
           <div className="service-wrapper">
             <div className="title-ctn">
-              <h1>Our Services</h1>
+              <h1>Our Offered Services to you</h1>
               <p>
                 We provide the best of services while considering the eco-system
               </p>
@@ -145,14 +168,13 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Engineering services</h1>
-                    <p>
-                      ALPHADEN provides excellent turnkey services for most
-                      industrial projects. Our exceptional ability to deliver
-                      seamless integration of engineering, procurement and
-                      construction services throughout all stages of a project
-                      allows us to ensure our clients
-                    </p>
+                    <h1>EPCI</h1>
+                    <ul>
+                      <li>ENGINEERING</li>
+                      <li>PROCUREMENT</li>
+                      <li>CONSTRUCTION</li>
+                      <li>INSTALLATION AND COMMISSIONING</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -162,12 +184,13 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Construction services</h1>
-                    <p>
-                      We are commercially flexible, offering a range of
-                      different commercial models tailored to meet the needs of
-                      our clients.
-                    </p>
+                    <h1>Upstream</h1>
+                    <ul>
+                      <li>OILFIELD SERVICES</li>
+                      <li> WELL CONSTRUCTION</li>
+                      <li> PRODUCTION AND OPTIMIZATION</li>
+                      <li>DRILLING SERVICES</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -177,13 +200,11 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Procurement and contractual support</h1>
-                    <p>
-                      With a cache of OEM relationships and well managed
-                      industry relationships, we have stayed true to our
-                      objectives of providing fit-for-purpose services to the
-                      Energy sector.
-                    </p>
+                    <h1>Marine Services</h1>
+                    <ul>
+                      <li> SUBSEA SUPPORT</li>
+                      <li>MARINE EQUIPMENT SUPPLY</li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -193,126 +214,13 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Installation and Commissioning</h1>
-                    <p>
-                      inappropriate behavior is often laughed off as “boys will
-                      be boys,” women face higher conduct women face higher
-                      conduct.
-                    </p>
+                    <h1>Midstream</h1>
+                    <ul>
+                      <li>GAS INFRASTRUCTURE, CONSTRUCTION AND MAINTENANCE</li>
+                      <li>POWER GENERATION AND DISTRIBUTION</li>
+                    </ul>
                   </div>
                 </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-12">
-                <div className="service-content">
-                  <div className="service-img-ctn img-five">
-                    <div className="overlay"></div>
-                  </div>
-                  <div className="content">
-                    <h1>Automotive Engineering</h1>
-                    <p>
-                      inappropriate behavior is often laughed off as “boys will
-                      be boys,” women face higher conduct women face higher
-                      conduct.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-4 col-sm-6 col-12">
-                <div className="service-content">
-                  <div className="service-img-ctn img-six">
-                    <div className="overlay"></div>
-                  </div>
-                  <div className="content">
-                    <h1>Construction & Engineering</h1>
-                    <p>
-                      inappropriate behavior is often laughed off as “boys will
-                      be boys,” women face higher conduct women face higher
-                      conduct.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section className="container">
-        <div className="count-ctn">
-          <div className="row">
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={1020}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Project completed</h6>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={70}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Total Employees</h6>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={120}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Happy Clients</h6>
-              </div>
-            </div>
-            <div className="col-lg-3 col-md-4 col-sm-6 col-12">
-              <div className="count-content">
-                <div className="count">
-                  <div>
-                    <h2>
-                      {" "}
-                      <CountUp
-                        end={260}
-                        start={0}
-                        duration={4}
-                        enableScrollSpy={true}
-                      />
-                      k
-                    </h2>
-                  </div>
-                </div>
-                <h6>Tickets Submited</h6>
               </div>
             </div>
           </div>
