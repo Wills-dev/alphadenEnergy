@@ -4,6 +4,7 @@ import Link from "next/link";
 import "./Home.css";
 import CountUp from "react-countup";
 import ContactUs from "@components/ContactUs";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,11 +13,14 @@ export default function Home() {
         <div className="overlay"></div>
         <div className="bg-container">
           <h6>DON’T LOOK FURTHER, HERE IS THE KEY</h6>
-          <h1>We’re Industrial solution</h1>
+          <h1>Welcome to Alphaden Energy</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim. sed do eiusmod tempor incididunt.
+            We provide Engineering, Procurement & Contractual Support,
+            Construction, Installation (EPCI), Oilfield Services, Upstream
+            Support Services, Asset Integrity Solutions, Quality Control, NDT
+            And Inspection Services, Systems Integration, Process Control &
+            Automation, Marine Support Services, as well as Midstream
+            development services.
           </p>
           <Link href="/about-us">
             Learn more{" "}
@@ -59,11 +63,11 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="value-content">
-                  <h3>Maintenance</h3>
+                  <h3>Mission Statement</h3>
                   <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct standards especially in the
-                    workplace. That’s why.
+                    Constantly adopting efficiency dynamics in empowering people
+                    to deliver excellence with innovation in the pursuit of
+                    perfection.
                   </p>
                 </div>
               </div>
@@ -87,11 +91,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="value-content">
-                  <h3>Residental Service</h3>
+                  <h3>Our Vision</h3>
                   <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct standards especially in the
-                    workplace. That’s why.
+                    To be the dominant EPCI service provider from Africa,
+                    delivering capital projects globally.
                   </p>
                 </div>
               </div>
@@ -115,11 +118,10 @@ export default function Home() {
                   </svg>
                 </div>
                 <div className="value-content">
-                  <h3>Commercial Service</h3>
+                  <h3>Strategy</h3>
                   <p>
-                    inappropriate behavior is often laughed off as “boys will be
-                    boys,” women face higher conduct standards especially in the
-                    workplace. That’s why.
+                    Our Strategy seeks to maintain us as one of the global
+                    leaders in the oil and gas industry with a focus….
                   </p>
                 </div>
               </div>
@@ -131,7 +133,7 @@ export default function Home() {
         <div className="container">
           <div className="service-wrapper">
             <div className="title-ctn">
-              <h1>Our Capturing Market Sectors</h1>
+              <h1>Our Services</h1>
               <p>
                 We provide the best of services while considering the eco-system
               </p>
@@ -143,11 +145,13 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Automotive Engineering</h1>
+                    <h1>Engineering services</h1>
                     <p>
-                      inappropriate behavior is often laughed off as “boys will
-                      be boys,” women face higher conduct women face higher
-                      conduct.
+                      ALPHADEN provides excellent turnkey services for most
+                      industrial projects. Our exceptional ability to deliver
+                      seamless integration of engineering, procurement and
+                      construction services throughout all stages of a project
+                      allows us to ensure our clients
                     </p>
                   </div>
                 </div>
@@ -158,11 +162,11 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Industrial Engineering</h1>
+                    <h1>Construction services</h1>
                     <p>
-                      inappropriate behavior is often laughed off as “boys will
-                      be boys,” women face higher conduct women face higher
-                      conduct.
+                      We are commercially flexible, offering a range of
+                      different commercial models tailored to meet the needs of
+                      our clients.
                     </p>
                   </div>
                 </div>
@@ -173,11 +177,12 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Automotive Engineering</h1>
+                    <h1>Procurement and contractual support</h1>
                     <p>
-                      inappropriate behavior is often laughed off as “boys will
-                      be boys,” women face higher conduct women face higher
-                      conduct.
+                      With a cache of OEM relationships and well managed
+                      industry relationships, we have stayed true to our
+                      objectives of providing fit-for-purpose services to the
+                      Energy sector.
                     </p>
                   </div>
                 </div>
@@ -188,7 +193,7 @@ export default function Home() {
                     <div className="overlay"></div>
                   </div>
                   <div className="content">
-                    <h1>Construction & Engineering</h1>
+                    <h1>Installation and Commissioning</h1>
                     <p>
                       inappropriate behavior is often laughed off as “boys will
                       be boys,” women face higher conduct women face higher
@@ -339,6 +344,97 @@ export default function Home() {
             </div>
             <div className="col-md-4 col-sm-6 col-12">
               <div className="project project-six"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="container">
+        <div className={"partnerCtn"}>
+          <div className="title-ctn">
+            <h1>CLIENTS</h1>
+            <p>OUR OFFICIAL CLIENTS WHO ARE PLEASED WITH OUR SERVICES</p>
+          </div>
+
+          <div className="row">
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_1.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_2.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_3.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_4.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_5.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_6.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_7.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-4 col-sm-6 col-12 m-0 p-0">
+              <div className={"partner"}>
+                <Image
+                  src="/assets/images/logo_8.png"
+                  width={150}
+                  height={150}
+                  alt="Alphaden group"
+                />
+              </div>
             </div>
           </div>
         </div>
